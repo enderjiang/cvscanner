@@ -6,12 +6,10 @@ from pdfminer.pdfdocument import PDFDocument
 from pdfminer.pdfinterp import PDFResourceManager, PDFPageInterpreter
 from pdfminer.pdfpage import PDFPage
 from pdfminer.pdfparser import PDFParser
-#import pandas as pd
 import time
 import csv
 from csvsort import csvsort
 import operator
-#from docx2pdf import convert
 from csv import reader
 import random
 import smtplib
@@ -24,7 +22,7 @@ contentcollection=[]
 clientlist=[]
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 CVfolder=BASE_DIR+'/CV'
-#get hiverlab client list
+#this part will define the list of cv
 path=CVfolder
 # r=root, d=directories, f = files
 def listcheck():
