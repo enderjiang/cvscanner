@@ -18,52 +18,28 @@ VERSION 1.1.6
 Massive pdf check Keywords searching Csv organizing
 
 
-UPCOMING VERSION 1.2.N
-------------
-Docx converting
-Online database cross checking
- 
-
-
-INSTALLATION
-------------
-Install as you would normally install PC program, click cv1.1.exe and choose the destination This program is only compatible with windows computer
-
 CONFIGURATION
 -------------
-Make sure you are giving permission to this installation, it won’t read any personal file Before you start, please drop all resumes into the [CV] folder before the analysis
-For example, Windows user default path is C:\Program Files (x86)\Hiverlab_CV_Check\CV
-  2
+please drop all resumes into the [CV] folder before the analysis
 
 
 START
 -------------
-
-The program requires you to verify via hiverlab email
- 
-
- 
-Once you have verified yourself, you can choose the search mode.
+you can choose the search mode.
 1.	Search random keywords
 
 If you want to search random content, then your input should be single word or short phrase to get accurate result, like"annual revenue" "python","sales","intel"')
 You can search as many times as you want, and the program will organize the full result at the end of this program
  
- 
+
 2.	Search via a given list (for example you can create a list with skills, company names, etc to do cross checking)
 
 If you would like to do a list search, please drop a info.csv file in [Infocsv] Folder, keep all data in one row
-For example, Windows user default list csv path is C:\Program Files (x86)\Hiverlab_CV_Check\Infocsv
 
- 
  
 At the end of this program it will provide the search result, organize the name together, and write all result to the csv file in [CVresult] Folder
-Sample for windows user
-C:\Program Files (x86)\Hiverlab_CV_Check\CVresult
- 
- 
 
-After you press X, this program Will Self-Destruct in Five Seconds
+After you press X, this program Will Self-Destruct in Five Seconds...
 
 FAQ:
 Sometimes the program will stuck process, it’s probably because other program override the auto refresh window on this program, you just press any button on keyboard to bring the command to front so the program will continue running
