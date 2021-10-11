@@ -9,8 +9,8 @@ When we do resume screening, we will look at some keywords like years of experie
 
 When the company only receive 10 applicants per year, we have bandwidth to do it one by one, but now we receive 50-100 applicants over a week’s time from each county, and automation is more important.
 
-So we wrote this mini program using python and some general library to help us speed up this process.
-For any program manager, or teamleader, you’ll be starting to look at resources and recruiting new teammates, we hope this program can help you to do some initial screening so as to save some time. We are still updating this program, do provide us feedback so we can improve further.
+So I wrote this mini program using python and some general library to help us speed up this process.
+For any program manager, or teamleader, you’ll be starting to look at resources and recruiting new teammates, I hope this program can help you to do some initial screening so as to save some time. We are still updating this program, do provide us feedback so we can improve further.
 
 
 VERSION 1.1.6
