@@ -40,6 +40,3 @@ At the end of this program it will provide the search result, organize the name 
 
 After you press X, this program Will Self-Destruct in Five Seconds...
 
-FAQ:
-Sometimes the program will stuck process, it’s probably because other program override the auto refresh window on this program, you just press any button on keyboard to bring the command to front so the program will continue running
-
