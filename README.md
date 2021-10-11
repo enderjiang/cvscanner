@@ -1,8 +1,7 @@
-Welcome to resume massive check app V1.1.6 2020.10.09
 
 INTRODUCTION
 ------------
-Recently we have started to recruit oversea staff and new interns. And due to the massive respond, our team has been overloaded in screening and interviewing applicants. There are many good applicants but it’s unlikely we can read through their resume in details one by one. Platform like linkedin doesn’t provide a friendly window to help us further screen applicant, and other AI based platforms are not smart enough, so I decide to do one version that fits our own needs.
+Recently our company has started to recruit oversea staff and new interns. And due to the massive respond, our team has been overloaded in screening and interviewing applicants. There are many good applicants but it’s unlikely we can read through their resume in details one by one. Platform like linkedin doesn’t provide a friendly window to help us further screen applicant, and other AI based platforms are not smart enough, so I decide to do one version that fits our own needs.
 This program is written mainly for massive cv check, but you may also use it for some other information searching and organizing.
 
 When we do resume screening, we will look at some keywords like years of experience, MNC name, software skills, but everyone has their style in writing. It’s not possible to always capture the words by our eyes. So we would use this tool to do massive screening and extract the keywords. When we run multiple screening and get an organized result, we can also quickly find out which candidate fulfill most of our keywords.
@@ -40,7 +39,4 @@ If you would like to do a list search, please drop a info.csv file in [Infocsv] 
 At the end of this program it will provide the search result, organize the name together, and write all result to the csv file in [CVresult] Folder
 
 After you press X, this program Will Self-Destruct in Five Seconds...
-
-FAQ:
-Sometimes the program will stuck process, it’s probably because other program override the auto refresh window on this program, you just press any button on keyboard to bring the command to front so the program will continue running
 
