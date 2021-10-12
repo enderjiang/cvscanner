@@ -12,15 +12,17 @@ So I wrote this mini program using python and some general library to help us sp
 For any program manager, or teamleader, you’ll be starting to look at resources and recruiting new teammates, I hope this program can help you to do some initial screening so as to save some time. We are still updating this program, do provide us feedback so we can improve further.
 
 
-VERSION 1.1.6
+VERSION 1.0
 ------------
-Massive pdf check Keywords searching Csv organizing
+User can drop massive cv pdf in the cv folder
+User can create a csv list to focus at what they want to know
+the output will be a csv file which contains the result and sort by applicant who meets more required keywords than others.
 
 
 CONFIGURATION
 -------------
-please drop all resumes into the [CV] folder before the analysis
-
+please drop all resumes into the [CV] folder before the analysis currently mainly support pdf
+ ![image](https://user-images.githubusercontent.com/65903200/136876641-eec828a3-3e75-4121-b9e9-4fa71b95db9b.png)
 
 START
 -------------
@@ -29,14 +31,16 @@ you can choose the search mode.
 
 If you want to search random content, then your input should be single word or short phrase to get accurate result, like"annual revenue" "python","sales","intel"')
 You can search as many times as you want, and the program will organize the full result at the end of this program
- 
 
 2.	Search via a given list (for example you can create a list with skills, company names, etc to do cross checking)
 
 If you would like to do a list search, please drop a info.csv file in [Infocsv] Folder, keep all data in one row
+![image](https://user-images.githubusercontent.com/65903200/136876735-ed62bde1-11d2-4701-9367-f2b26ae6e6bd.png)
 
  
 At the end of this program it will provide the search result, organize the name together, and write all result to the csv file in [CVresult] Folder
+![image](https://user-images.githubusercontent.com/65903200/136876801-020b1e52-a0f7-4734-8295-b30fbcb1b239.png)
 
-After you press X, this program Will Self-Destruct in Five Seconds...
+After you press X, this program Will Self-Destruct in Five Seconds.
+![image](https://user-images.githubusercontent.com/65903200/136876831-b194fcde-81b2-4e99-bb93-2411f5bb6e7f.png)
 
