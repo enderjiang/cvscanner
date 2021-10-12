@@ -27,7 +27,6 @@ path=CVfolder
 # r=root, d=directories, f = files
 def listcheck():
     #this part make csv to a list of item
-    #this part read each document
     output_string = StringIO()
     with open(singlefilepath, 'rb') as in_file:
         parser = PDFParser(in_file)
@@ -38,6 +37,7 @@ def listcheck():
         for page in PDFPage.create_pages(doc):
             interpreter.process_page(page)
     fullcontent=output_string.getvalue().lower().replace('\n','').replace('\r','')
+    #this part read each document
     for whattofind in clientlist:
             searchelement=fullcontent.find(whattofind)
             if searchelement != -1:
@@ -104,10 +104,12 @@ print('Started...\n')
 print('...................................................................................')
 time.sleep(0.5)
 
+#collect the full list of cvs
 for r, d, f in os.walk(path):
     for file in f:
         if '.pdf' in file:
             filespath.append(os.path.join(r, file))
+#user will decide the searching mode
 Start=input('How do you want to search? [1] Search by keyword, [2] Search the list of item provided at [Infocsv] folder\n')
 if Start=='1':
     while True:
@@ -156,6 +158,7 @@ elif Start=='2':
 with open(BASE_DIR+'/CVresult/cvresult.csv', 'r', newline='') as file:
     arranged=sorted(file,key=operator.itemgetter(0))
     print(arranged)
+#create the csv file
 with open(BASE_DIR+'/CVresult/cvresult.csv', 'w', newline='') as file:
     writer = csv.writer(file)
     for i in range(len(arranged)):
